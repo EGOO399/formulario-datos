@@ -1,0 +1,115 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+   
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>formulario</title>
+    <link rel="stylesheet" href="styles.css">
+
+</head>
+<body>
+
+   
+   
+    <div class="grid-conteiner">
+
+        <header class="grid-header">
+            <h1>Universidad Mariano Gálvez</h1>  
+        </header>
+    
+        
+        <main class="grid-main">
+            <form action="">
+                <fieldset style="margin: 5px;">
+                   <legend style="font-weight: bold;text-align:center;">Datos Personales</legend> 
+
+                   <div class="grid-data">
+                   <label for="dpi">numero de DPI</label>
+                   <input type="number" name="txtdpi" id="dpi" required placeholder="ingrese solo numeros">
+                   </div>
+
+                   <div class="grid-data">
+                       <label for="idNombre"> nombre</label>
+                       <input type="text" name="txtNombre" id="idNombre" required placeholder="ingrese su nombre completo">
+                   </div>
+
+                   <div class="grid-data">
+                    <label for="idDireccion"> Direccion</label>
+                    <input type="text" name="txtDireccion" id="idDireccion" required placeholder="ingrese su direccion">
+                </div>
+
+                <div class="grid-data">
+                    <label for="idPais"> Pais</label>
+                    <select name="selPais" id="idPais" required>
+                        <option value="Guatemala" selected>Gustemala</option>
+                        <option value="El Salvador">El Salvador</option>
+                        <option value="Honduras">Honduras</option>
+                        <option value="Nicaragua">Nicaragua</option>
+                        <option value="Costa Rica">Costa Rica</option>
+                        <option value="Panama">Panama</option>
+                        <option value="Belice">Belice</option>
+                        <option value="Mexico">Mexico</option>
+                        <option value="Estados Unidos">Estados Unidos</option>
+                    </select>    
+                </div>
+
+                <div class="grid-data">
+                    <label for="idMail"> E-MAIL</label>
+                    <input type="email" name="txtEmail" id="idMail" required placeholder="ingrese solo dirrecciones validas">
+                </div>
+
+                <div class="grid-data">
+                    <label for="idTelefono">Telefono</label>
+                    <input type="number" name="txtTelefono" id="idTelefono" required placeholder="ingrese solo numeros">
+                 </div>
+
+                 <br>
+                 <legend style="font-weight: bold;text-align:center;">Datos Laborales</legend>
+
+                 <div class="grid-data">
+                     <label for="idEmpres">Empresa</label>
+                     <select name="selEmpresa" id="idEmpres">
+                         <option value="Eurofarma" selected>Eurofarma</option>
+                         <option value="Wellco">Wellco</option>
+                         <option value="Bioquimicas">Bioquimicas</option>
+                         <option value="Olmeca">Olmeca</option>
+
+                     </select>
+
+                 </div>
+
+                 <div class="grid-data">
+                     <label for="idSueldoOrdinario">Sueldo Ordinario</label>
+                     <input type="number" name="txrSueldoOrdinario" id="idSueldoOrdinario" required placeholder="ingrese solo numeros">
+                 </div>
+
+                 <div class="grid-data">
+                    <label for="idBoni">Bonificacion</label>
+                    <input type="number" name="txrbonificacion" id="idBonificacion" required placeholder="ingrese solo numeros">
+                </div>
+
+                <div class="grid-data">
+                    <label for="idObonis">Otras Bonificaciones</label>
+                    <input type="number" name="txrObonis" id="idObonis" required placeholder="ingrese solo numeros">
+                </div>
+
+                <div class="grid-data">
+                    <button type="submit" style="grid-column: 2;">Enviar Datos</button>
+            </div>
+
+                </fieldset>
+            </form>
+        </main>
+        
+        
+    
+        <footer class="footer">
+            <h3>egoo-2021</h3>
+        </footer>
+        
+    </div>
+    
+    
+</body>
+</html>
